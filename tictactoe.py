@@ -6,7 +6,7 @@ for _ in range(9):
 
 def display(board):
     print(' | '.join(board[1:4]),)
-    print('-' * 15)
+    print('-' * 10)
     print(' | '.join(board[4:7]))
     print('-' * 10)
     print(' | '.join(board[7:]))
